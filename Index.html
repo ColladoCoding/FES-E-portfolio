@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./Style.css">
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -33,19 +34,33 @@
                 </li>
             </ul>
         </nav>
-        <div>
+        <div class="flex-1">
             <div class="aboutmeinfo">
                 <div class="aboutme__info--container">
-                    <figure>
-                        <img src="./assets/me.jpeg" alt="picture of Dave!" </figure>
-                        <h1 class="about-me__info--title">
-                            Hey this is <span class="text--purple">David Bragg</span>
-                        </h1>
-                        <p class="about-me__info--para">This is David Bragg and <strong>he's a front end software
-                                engineer</strong> with a strong passion for building responsive and performant web apps
-                            which provide great user expereience -- what a guy!</p>
-
+                    <figure class="about-me__picture--mask">
+                        <img src="./assets/me.jpeg" class="about-me__picture" alt="picture of Dave!">
+                    </figure>
+                    <h1 class="about-me__info--title">
+                        Hey this is <span class="text--purple">David Bragg</span>
+                    </h1>
+                    <p class="about-me__info--para">This is David Bragg and <strong>he's a front end software
+                            engineer</strong> with <i class="fa-brands fa-linkedin-in"></i>a strong passion for building
+                        responsive and performant web apps
+                        which provide great user expereience -- what a guy!</p>
+                    <div class="about-me__links">
+                        <a href="" class="about me"></a>
+                        <i class="fab fa-linkedin-in"></i>
+                        <a href="" class="about me"></a>
+                        <i class="fab fa-github"></i>
+                        <a href="" class="about me"></a>
+                        <i class="far fa-envelope"></i>
+                        <a href="" class="about me"></a>
+                        <i class="fas fa-file-pdf"></i>
+                    </div>
                 </div>
+                <figure class="about-me__img--container">
+                    <img src="./assets/undraw_websites.svg" class="about-me__img" alt=""></img>
+                </figure>
             </div>
         </div>
     </section>
